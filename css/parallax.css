@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 1em;
+  background-color: #f2f2f2;
+}
+header h1 {
+  color: #000;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  text-align: center;
+}
+.row {
+  max-width: 940px;
+  margin: 0 auto; 
+}
+section header {
+  background-color: transparent;
+}
+
+.fondo-parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.fondo-1 {
+  background-image: url(../images/banner-bg.jpg);
+}
+.fondo-2 {
+  background-image: url(../images/home_header.jpg);
+}
+.fondo-3 {
+  background-image: url(../images/intro-bg.jpg);
+}
+.modulo-alto {
+  padding: 1em;
+  min-height: 600px;
+  text-align: center;
+}
+.titulo-gigante {
+  margin: 15em 0;
+  display: inline-block;
+  padding: 2em 3em;
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
